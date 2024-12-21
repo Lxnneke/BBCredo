@@ -108,13 +108,14 @@ h2 {
     font-weight: 600;
     font-size: 32px;
     margin-bottom: 15px;
+    color: #676767;
 }
 
 h4 {
     float: right;
     width: 20%;
     margin-top: 65px;
-    color: grey;
+    color: #8f8f8f;
     font-size: 32px;
     margin-bottom: 15px;
     font-weight: 300;
@@ -146,7 +147,7 @@ section h1 {
 .mainRedSpan {
     margin-left: 10px;
     padding-left: 7px;
-    border-left: 3px solid red;
+    border-left: 3px solid #e91901;
 }
 /******************************************
 /* MAIN SIDE SECTION
@@ -188,32 +189,68 @@ h3.productivity {
 
 .sideBlueSpan {
     padding-left: 15px;
-    border-left: 4px solid blue;
+    border-left: 4px solid #47a1d8;
 }
 
 .sideRedSpan {
     padding-left: 15px;
-    border-left: 4px solid red;
+    border-left: 4px solid #e91901;
 }
 
 .sideGraySpan {
     padding-left: 15px;
-    border-left: 4px solid grey;
+    border-left: 4px solid #372e67;
 }
 /******************************************
 /* BOTTOM SECTION
 /*******************************************/
+.image {
+    width: 100%;
+}
 
+.bottomSection H3 {
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.bottomSection p {
+    margin-top: 5px;
+    font-size: 21px;
+    font-weight: 200;
+}
+
+.bottomSection span {
+    padding-left: 20px;
+    border-left: 4px solid #e91901;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.NewsPart {
+    font-size: 40px;
+    padding-left: 20px;
+    border-left: 4px solid #e91901; 
+    padding-top: 0px;
+    margin-bottom: 20px; 
+    color: black;  
+}
 
 /******************************************
 /* SECTIONS
 /*******************************************/
 .bottomSection {
-    width: 33.33333%;
+    width: 32.8%;
+    margin-left: 8px;
     float: left;
-    border: 1px solid black;
+    margin-bottom: 300px;
+    color: black;
 }
 
+.exception {
+    margin-left: 0px;
+}
 .mainsection {
     width: 50%;
     height: 450px;
