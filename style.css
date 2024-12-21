@@ -63,7 +63,7 @@ nav form {
 }
 
 nav > a {
-    margin-top: 15px;
+    margin-top: 10px;
     font-weight: 600;
 }
 
@@ -99,6 +99,113 @@ nav li a {
     padding-left: 15px;
 }
 /******************************************
+/* MAIN SECTION
+/*******************************************/
+h2 {
+    margin-top: 65px;
+    float: left;
+    width: 80%;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+h4 {
+    float: right;
+    width: 20%;
+    margin-top: 65px;
+    color: grey;
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.bigSection {
+    background-image: url("https://ichef.bbci.co.uk/news/1024/cpsprodpb/1676D/production/_113931029_composite.jpg.webp");
+    background-size: 750px 500px;
+    color: white;
+}
+
+section h1 {
+    font-size: 44px;
+    margin-top: 275px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.bigSecText {
+    font-size: 21px;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-weight: 200;
+    margin-bottom: 12px;
+    width: 675px;
+}
+
+.mainRedSpan {
+    margin-left: 10px;
+    padding-left: 7px;
+    border-left: 3px solid red;
+}
+/******************************************
+/* MAIN SIDE SECTION
+/*******************************************/
+.secNoOne {
+    background-image: url("https://ichef.bbci.co.uk/news/1024/cpsprodpb/A500/production/_113904224_arch.jpg.webp");
+    background-size: 400px 250px;
+    color: white;
+}
+
+.secNoTwo {
+    background-image: url("https://ichef.bbci.co.uk/news/1024/cpsprodpb/A632/production/_111864524_2020-04-18t130112z_2061940609_rc217g9mtg9h_rtrmadp_3_health-coronavirus-vaccine-oxford.jpg.webp");
+    background-size: 400px 250px;
+    color: white;
+}
+
+.secOThree {
+    background-image: url("https://ichef.bbci.co.uk/images/ic/1024xn/p08ngz84.jpg.webp");
+    background-size: 400px 250px;
+    color: white;
+}
+
+.secNoFour {
+    background-image: url("https://ichef.bbci.co.uk/images/ic/1024xn/p08nkrfx.jpg.webp");
+    background-size: 400px 250px;
+    color: white;
+}
+
+.subsection > h3 {
+    margin-top: 105px;
+    margin-bottom: 7px;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+h3.productivity {
+    margin-top: 130px; 
+}
+
+.sideBlueSpan {
+    padding-left: 15px;
+    border-left: 4px solid blue;
+}
+
+.sideRedSpan {
+    padding-left: 15px;
+    border-left: 4px solid red;
+}
+
+.sideGraySpan {
+    padding-left: 15px;
+    border-left: 4px solid grey;
+}
+/******************************************
+/* BOTTOM SECTION
+/*******************************************/
+
+
+/******************************************
 /* SECTIONS
 /*******************************************/
 .bottomSection {
@@ -109,21 +216,17 @@ nav li a {
 
 .mainsection {
     width: 50%;
-    height: 500px;
+    height: 450px;
     float: left;
-    border: 1px solid black;
 }
 
 .subsection {
     width: 46%;
-    height: 220px;
+    height: 215px;
     float: left;
-    border: 1px solid black;
-    margin: 15px;
+    margin: 10px;
     padding: 10px;
-}
-
-.secOThree {
-    background-image: url("https://ichef.bbci.co.uk/images/ic/1024xn/p08ngz84.jpg.webp");
-    background-size: 400px 250px;
+    margin-left: 15px;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
