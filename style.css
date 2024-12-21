@@ -1,0 +1,129 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/******************************************
+/* HEADER / NAVIGATION
+/*******************************************/
+header {
+    background-color: black;
+    height: 45px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+nav * {
+    float: left;
+    width: 10%;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+nav ul {
+    width: 60%;
+    margin-top: 0;
+}
+
+nav form input {
+    width: 100%;
+    margin-top: 10px;
+    float: right;
+}
+
+nav form {
+    float: right; 
+    width: 250px;
+    padding-right: 20px;
+}
+
+nav > a {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.logo {
+    height: 45px;
+    width: 102px;
+    padding-right: 20px;
+    border-right: 2px solid white;
+    margin-left: 20px;
+}
+
+.userSignIn {
+    height: 40px;
+    width: 50px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+nav li {
+    font-weight: 600;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding-left: 25px;
+    height: 45px;
+}
+
+nav li a {
+    margin-top: 10px;
+}
+
+.workLife {
+    padding-left: 15px;
+}
+/******************************************
+/* SECTIONS
+/*******************************************/
+.bottomSection {
+    width: 33.33333%;
+    float: left;
+    border: 1px solid black;
+}
+
+.mainsection {
+    width: 50%;
+    height: 500px;
+    float: left;
+    border: 1px solid black;
+}
+
+.subsection {
+    width: 46%;
+    height: 220px;
+    float: left;
+    border: 1px solid black;
+    margin: 15px;
+    padding: 10px;
+}
+
+.secOThree {
+    background-image: url("https://ichef.bbci.co.uk/images/ic/1024xn/p08ngz84.jpg.webp");
+    background-size: 400px 250px;
+}
